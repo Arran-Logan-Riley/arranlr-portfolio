@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/finnianhblr-portfolio-react/static/css/main.54a06d34.css",
+    "main.js": "/finnianhblr-portfolio-react/static/js/main.6ebe0e83.js",
+    "static/js/787.a9d5af7f.chunk.js": "/finnianhblr-portfolio-react/static/js/787.a9d5af7f.chunk.js",
+    "static/media/codeHomeBackground.jpg": "/finnianhblr-portfolio-react/static/media/codeHomeBackground.a16a33d4735dc54dc95a.jpg",
+    "index.html": "/finnianhblr-portfolio-react/index.html",
+    "main.54a06d34.css.map": "/finnianhblr-portfolio-react/static/css/main.54a06d34.css.map",
+    "main.6ebe0e83.js.map": "/finnianhblr-portfolio-react/static/js/main.6ebe0e83.js.map",
+    "787.a9d5af7f.chunk.js.map": "/finnianhblr-portfolio-react/static/js/787.a9d5af7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54a06d34.css",
+    "static/js/main.6ebe0e83.js"
+  ]
+}
