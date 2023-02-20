@@ -172,7 +172,7 @@ function App() {
       <footer id='contact'>
         <h1>CONTACT</h1>
         <hr></hr>
-        <h2>arranlrbusiness@gmail.com+64 22468260</h2>
+        <h2>arranlrbusiness@gmail.com +64 22468260</h2>
         <p>Made in React by Arran Logan-Riley.</p>
       </footer>
 
