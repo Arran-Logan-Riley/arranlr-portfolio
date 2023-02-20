@@ -1,0 +1,127 @@
+[
+    {
+        "skill": "Full Stack",
+        "identifier": "Full-Stack",
+        "image": "Full-Stack",
+        "summary":"I have worked in both corporate and educational environments utilising all the flexibility that full stack development offers such as my work at Re-leased or the development of software for assignments."},
+    {
+        "skill": "Back End",
+        "identifier": "Back-End",
+        "image": "Back-End",
+        "summary": "Back-end development is centred around what the user cannot see where the application comunicates with a server. My experience with back-end development comes from my work with node js during my internship and personal projects."
+    },
+    {
+        "skill": "Front End",
+        "identifier": "Front-End",
+        "image": "Front-End",
+        "summary": "Front-end development is centred around what the user perceives from an application and is one skill I particularly enjoy to work with. "
+    },
+    {
+        "skill": "Teamwork",
+        "identifier": "Teamwork",
+        "image": "Teamwork",
+        "summary": "During many of my projects, I have worked in large or small groups where I enjoy taking leading roles and working with a team."
+    },{
+        "skill": "Indigenous development",
+        "identifier": "Indigenous-development",
+        "image": "Null",
+        "summary": "During my life I have grown up in and around Māori culture and tikanga with such values as inclusiveness, sharing, teamwork, community, and leadership which I am grateful for. Unfortunately, Māori have been underrepresented in technology, hence I believe it is important to represent Māori culture and Māori tikanga within the technology industry."
+    },
+    {
+        "skill": "IT Management",
+        "identifier": "IT-Management",
+        "image": "IT-Management",
+        "summary": "I have worked in IT management during my work at the HDC and Te Pae Tawhiti. During my time at these organisations, I have seen my work directly impact the function of the organisations, which I am proud of. "
+    },
+    {
+        "skill": "AI and Data",
+        "identifier": "AI",
+        "image": "AI",
+        "summary": "The combination of AI and Data has led to the development of intelligent systems that can identify patterns and trends in data, make predictions, and provide recommendations."
+    },
+    {
+        "skill": "Python",
+        "identifier": "Python",
+        "image": "Python",
+        "summary": "The Python programming language has been one of my core skills for many years as I have worked with Python on numerious projects for both for personal and study related wrok."
+    },
+    {
+        "skill": "JavaScript",
+        "identifier": "JavaScript",
+        "image": "JavaScript",
+        "summary": "JavaScript is a programming language used for web development that allows for dynamic and interactive user experiences on websites. JavaScript is widely used across the web and is considered a fundamental tool for modern web development."
+    },
+    {
+        "skill": "TypeScript",
+        "identifier": "TypeScript",
+        "image": "TypeScript",
+        "summary": "Typescript is similar to Javascript, however, the main benefit of TypeScript is static typing. TypeScript allows developers to specify the types of variables, function parameters, and return values, which can help catch errors before the code is executed. This can save time and reduce the risk of bugs and unexpected behaviour."
+    },
+    {
+        "skill": "Node.JS",
+        "identifier": "NodeJS",
+        "image": "NodeJS",
+        "summary": "Node.js is an open-source, cross-platform, server-side programming language that allows developers to run JavaScript code outside of a web browser. Node.js enables developers to use JavaScript on the server side, which means that they can use the same language for both client and server-side programming."
+    },
+    {
+        "skill": "MySQL",
+        "identifier": "MySQL",
+        "image": "Databases",
+        "summary": " have experience with  MySQL, which is an open-source relational database management system (RDBMS) that is widely used for storing and managing data in web applications."
+    },
+    {
+        "skill": "MongoDB",
+        "identifier": "MongoDB",
+        "image": "Databases",
+        "summary": "MongoDB is a NoSQL database, which means it stores data in collections of documents, using a flexible schema that allows for more complex and dynamic data structures."
+    },
+    {
+        "skill": "Java",
+        "identifier": "Java",
+        "image": "Java",
+        "summary": "Java is a versatile and widely used programming language that is suitable for a wide range of applications, from small programs to large-scale enterprise systems. Java has proved to be a usefyl skill as it is a high-level, object-oriented language, which means it provides a powerful set of tools for organizing and managing complex code. "
+    },
+    {
+        "skill": "React",
+        "identifier": "React",
+        "image": "React",
+        "summary": "React allows developers to create reusable UI components, which makes it easier to manage and maintain complex user interfaces. It also provides a powerful set of tools for managing and manipulating the DOM, and supports a wide range of libraries and frameworks for building complex web applications."
+    },
+    {
+        "skill": "C# and RazorEngine",
+        "identifier": "Razor-Engine",
+        "image": "Razor-Engine",
+        "summary": "I have used C# in an enterprise software development environment, particularly in the creation of web applications using ASP.NET in collaboration with the RazorEngine. Razor provides a simple, clean syntax for generating dynamic web pages, and is designed to make it easy to mix server-side code and HTML markup. It is similar to other server-side scripting languages like PHP and Ruby, but is specifically designed to work with the ASP.NET framework."
+    },
+    {
+        "skill": "IoT",
+        "identifier": "IoT",
+        "image": "IoT",
+        "summary": "IoT devices are typically equipped with sensors and other technologies that allow them to collect and transmit data about their environment or usage. This data can be analyzed and used to optimize the performance of the device, or to provide valuable insights to the user or the organization that owns the device. I have experience working with Arduino, electronics, sensors, Jetson, and raspberry pie."
+    },
+    {
+        "skill": "C++",
+        "identifier": "CPlusPlus",
+        "image": "CPlusPlus",
+        "summary": "C++ is known for its flexibility and performance, which make it a popular choice for developing software applications that require high speed and efficiency. I have used C++ many times in the area of IoT and for making lightweight applications."
+    },
+    {
+        "skill": "HTML & CSS",
+        "identifier": "HTML-CSS",
+        "image": "HTML-CSS",
+        "summary": "I have been working with HTML and CSS for many years and I enjoy working with these technologies. I have created many web applications with React, Razor and NextJS , however, HTML and CSS have remained a core skill."
+    },    
+    {
+        "skill": "Docker",
+        "identifier": "Docker",
+        "image": "Docker",
+        "summary": "Docker is an open-source platform that allows developers to package, distribute, and run applications in a containerized environment. Containers are lightweight and portable virtual environments that include all the necessary dependencies and libraries needed to run an application, making it easy to move the application between different environments and platforms."
+    },
+    {
+        "skill": "NLP",
+        "identifier": "Remote-Build",
+        "image": "Remote-Build",
+        "summary": "Natural Language Processing (NLP) is a field of artificial intelligence that deals with the interaction between computers and human language. It involves teaching computers to understand, interpret, and generate human language, including speech and text."
+    }
+
+]

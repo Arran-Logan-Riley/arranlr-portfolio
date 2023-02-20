@@ -1,0 +1,67 @@
+[
+    {
+        "title": "NASA React Fetcher",
+        "Description": "The NASA fetcher app was created in React to interface with the APIs that NASA hosts. I was able to request data from the NOAA spacecraft in geostatinary orbit and retrieve live images of earth from and orbital data. This data was used to plot the orbit of the NOAA spacecraft in 3D space (including its orentation in space) as well as the releative locations of the earth, moon and the sun on their orbital paths.",
+        "tags": ["Full Stack", "JavaScript", "Python", "Github Remote Build","HTML & CSS", "React", "NextJS", "Docker", "Teamwork"],
+        "identifiers": ["Full-Stack", "JavaScript", "Python", "Remote-Build","HTML-CSS", "React", "React", "Docker", "Teamwork"],
+        "link": "https://github.com/Arran-Logan-Riley/NASA-React-Fetcher"
+    },
+    {
+        "title": "ESYS",
+        "Description": "This tool has been developed to aid people in their everyday life, for those who struggle with emotion recognition or expression through the use of Natrual Language Processing models to identify the emotinal context of any sentance presented to the model.",
+        "tags": ["Python", "AI", "NLP"],
+        "identifiers": ["Python", "AI", "NLP"],
+        "link": "https://github.com/Arran-Logan-Riley/ESYS"
+    },
+    {
+        "title": "Diabetes-Prediction Using Machine Learning and Statistical Models",
+        "Description": "This project was developed in Python to create a set of a machine learning tools in colaboration with various sets of patient data to predict wheater a patent had or was going to develop diabetes from their physical attributies. This project was sucessful in its ability to predict dibeties in patients.",
+        "tags": ["Python", "AI"],
+        "identifiers": ["Python", "AI"],
+        "link": "https://github.com/Arran-Logan-Riley/Diabetes-Prediction-Using-Machine-Learning-and-Statistical-Models/tree/master"
+
+    },
+    {
+        "title": "New York Taxi Analysis",
+        "Description": "This was a project to implement various python data techniques to answer the following questions:1. Higher average income is less than 30km or more than 50km compared to total revenue. 2. Find out if more taxi rides are starting in the north or south • Starting in the north of New York vs the South of New York? 3. Find out if and how the tip depends on the trip distance. • Which trip distance has the most and least tips? 4. Our findings 1. What areas have the highest and lowest tips?",
+        "tags": ["Python", "AI", "Teamwork"],
+        "identifiers": ["Python", "AI", "Teamwork"],
+        "link": "https://github.com/Arran-Logan-Riley/New-York-taxi-data-science-ml"
+    },
+    {
+        "title": "AWS DeepRacer Project",
+        "Description": "This code was created to compete in the AWS deep racer competition to race autonomous cars. The code our team created won us the second place and was developed on the final day. ",
+        "tags": ["Python", "AI", "Teamwork"],
+        "identifiers": ["Python", "AI", "Teamwork"],
+        "link": "https://github.com/Arran-Logan-Riley/Optimized-deep-racer"
+    },
+    {
+        "title": "GovHack 2019 Team io Localé",
+        "Description": "Localé is a tourism-based application designed to better connect visitors to local businesses and events in a safe and stress-free manner. Localé will also include local area safety and evacuation information to improve community safety. Data generated can be fed back to the council to aid in council and civil defence planning. The end goal of our idea is to have a well-designed app with a great user experience while accomplishing our core concepts well.This project was developed in a Hackathon and won us many awards.",
+        "tags": ["Teamwork"],
+        "identifiers": ["Teamwork"],
+        "link": "https://2019.hackerspace.govhack.org/projects/local"
+    },
+    {
+        "title": "GovHack 2020 Team io Liv City",
+        "Description": "LivCity is an application that allows a city to gain community sources information on selected areas. This app functions by an administrator or researcher selecting an area to question, this could be for example regarding air pollution, traffic, safety, waste and more. Using feedback from the community, the appropriate authorities can develop needed infrastructure in areas or appropriate social services, greatly improving the efficiency, usefulness, and bringing innovation to the community. This project was developed for a hackathon and won us first place.",
+        "tags": ["Teamwork"],
+        "identifiers": ["Teamwork"],
+        "link": "https://2020.hackerspace.govhack.org/projects/livcity"
+    },  
+    {
+        "title": "MQTT Project",
+        "Description": "This project was developed to send computer tempartures using MQTT over a secure connection over the internet in Python.",
+        "tags": ["Python", "IoT"],
+        "identifiers": ["Python", "IoT"],
+        "link": "https://github.com/Arran-Logan-Riley/MQTT"
+    },
+    {
+        "title": "My Portfolio",
+        "Description": "My portfolio website was created in react to show potential employers what I have worked on over the years, what I'm capable of and to learn React.",
+        "tags": ["React", "HTML & CSS", "JavaScript", "Front End"],
+        "identifiers": ["React", "HTML-CSS", "JavaScript", "Front-End"],
+        "link": "https://github.com/FinnianHBLR/finnianhblr-portfolio-react"
+    }
+
+]
