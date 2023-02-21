@@ -766,22 +766,6 @@ footer {
 // }
 
 
-.homeLeft{
-  width: 50%;
-  padding-top: 0%;
-  float:left;
-  left: 0;
-  /* border-style: solid; */
-}
-
-.homeRight{
-  padding-top: 0%;
-  width: 50%; 
-  float:right;
-  right:0;
-  padding-bottom: 33px;
- /* border-style: solid;*/
-}
 
 .homeLeftHeader {
  margin-top: 0;
@@ -865,8 +849,21 @@ footer {
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
-  button-19 {
-    width: 80%;
+/*Change size of button when screen gets smaller*/
+@media only screen and (max-width: 1314px) {
+  .button-19 {
+   width: 80%;
+  }
+}
+
+.splitHome{
+  .card{
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+@media only screen and (max-width: 1314px) {
+  .card{
+    
   }
 }

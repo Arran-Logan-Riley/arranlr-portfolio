@@ -127,17 +127,14 @@ function App() {
         </ul>
       </section>
 
-      <div className='splitHome' id='home'>
-        <div className='homeLeft'>
-
+       <div className='splitHome cardsContainer' id='home'> 
+        <div className='card'>
           <h1 className='homeLeftHeader'>PORTFOLIO</h1>
           <div className='personalStatementContainer'>
             <h4 className='faderSlow'>My name is Arran Logan-Riley and I am a graduate of both Furtwangen University in Germany and the Eastern Institute of Technology in New Zealand.</h4>
           </div>
-
         </div>
-
-        <div className='homeRight'>
+        <div className='card '>
           <h1 className='homeRightHeader'>SOFTWARE DEVELOPER</h1>
           <div className='personalStatementContainer'>
             <h4 className='faderSlow'>I am a front-end or back-end junior developer with experience in data analytics and electronics.</h4>
