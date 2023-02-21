@@ -119,8 +119,8 @@
     },
     {
         "skill": "NLP",
-        "identifier": "Remote-Build",
-        "image": "Remote-Build",
+        "identifier": "NLP",
+        "image": "NLP",
         "summary": "Natural Language Processing (NLP) is a field of artificial intelligence that deals with the interaction between computers and human language. It involves teaching computers to understand, interpret, and generate human language, including speech and text."
     }
 

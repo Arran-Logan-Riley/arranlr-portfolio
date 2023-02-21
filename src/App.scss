@@ -8,25 +8,26 @@
 .App {
   text-align: center;
 }
+
 html {
   /* So scrolling is smooth when button is clicked. */
   scroll-behavior: smooth;
 }
- 
+
 hr {
   /* Hr lines under Projects and Skills. */
   height: 4px;
   border-radius: 5px;
-  background: #f29057;
+  background: white;
 }
 
 
-.navBarTitle{
+.navBarTitle {
   font-size: calc(20px + 1vmin);
 
 }
 
-.fader{
+.fader {
   width: 80%;
   height: 100%;
   position: relative;
@@ -37,55 +38,91 @@ hr {
 
 // ---- Fading browser support ----- //
 @-webkit-keyframes moving {
-  from {bottom: -80px;}
-  to {bottom: 0px;}
+  from {
+    bottom: -80px;
+  }
+
+  to {
+    bottom: 0px;
+  }
 }
 
 @keyframes moving {
-  from {bottom: -80px;}
-  to {bottom: 0px;}
+  from {
+    bottom: -80px;
+  }
+
+  to {
+    bottom: 0px;
+  }
 }
+
 // ---- Fading browser support ----- //
 
-.faderSlow{
-  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 4s; /* Firefox < 16 */
-   -ms-animation: fadein 4s; /* Internet Explorer */
-    -o-animation: fadein 4s; /* Opera < 12.1 */
-       animation: fadein 4s;
+
+.faderSlow {
+  -webkit-animation: fadein 4s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 4s;
+  /* Internet Explorer */
+  -o-animation: fadein 4s;
+  /* Opera < 12.1 */
+  animation: fadein 4s;
 }
 
 // ----- vv Animation Browser support vv --------//
 @keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 // -----  ^^ Animation Browser support ^^ --------//
 
 .splitHome {
-  
+
   /* Center on left of image, for mobile users. */
   background-image: url("images/codeHomeBackground.jpg");
-  background-position: 10% 90%; 
+  background-position: 10% 90%;
   min-height: 90vh;
   display: flex;
   //flex-direction: column;
@@ -109,7 +146,7 @@ hr {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #00BAF0; 
+  background-color: #00BAF0;
   background: linear-gradient(to left, #f29057, #a64521);
   color: #FFF;
   height: 70px;
@@ -132,15 +169,18 @@ hr {
   padding: 0;
 }
 
-.menu > li {
+.menu>li {
   margin: 0 1rem;
   overflow: hidden;
+
   /* Remove link decorations. */
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
-      font-size: 25px;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 25px;
   }
 }
 
@@ -180,16 +220,16 @@ hr {
   margin-top: 8px;
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::before {
+#menu-toggle:checked+.menu-button-container .menu-button::before {
   margin-top: 0px;
   transform: rotate(405deg);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button {
+#menu-toggle:checked+.menu-button-container .menu-button {
   background: rgba(255, 255, 255, 0);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::after {
+#menu-toggle:checked+.menu-button-container .menu-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
@@ -198,6 +238,7 @@ hr {
   .menu-button-container {
     display: flex;
   }
+
   .menu {
     position: absolute;
     top: 0;
@@ -209,7 +250,8 @@ hr {
     justify-content: center;
     align-items: center;
   }
-  #menu-toggle ~ .menu li {
+
+  #menu-toggle~.menu li {
     height: 0;
     margin: 0;
     padding: 0;
@@ -217,32 +259,35 @@ hr {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 
   }
-  #menu-toggle:checked ~ .menu li {
+
+  #menu-toggle:checked~.menu li {
     border: 1px solid #333;
     /* Open menu item height. */
     height: 3.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    
+
   }
-  .menu > li{
+
+  .menu>li {
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0.5em 0;
     width: 100%;
-    background-color: #222;  
+    background-color: #222;
 
   }
-  .menu > li:not(:last-child) {
+
+  .menu>li:not(:last-child) {
     border-bottom: 1px solid #444;
 
- 
+
   }
 
 }
 
-.personalStatementContainer{
+.personalStatementContainer {
   /* Add effects to personal statement below title. */
   padding-inline: 10%;
   margin-top: 15px;
@@ -254,7 +299,7 @@ hr {
 // ------------------------
 
 .experiences {
-  background-color: #0b1a26;
+  // background-color: #0b1a26;
   padding: 20px;
 }
 
@@ -274,7 +319,9 @@ hr {
 
 
 /* Apply padding to titles of skills and projects. Also make titles white. */
-.projectTitle, .skillTitle, .experienceTitle {
+.projectTitle,
+.skillTitle,
+.experienceTitle {
   padding: 30px;
   color: #f2f2f2;
 
@@ -289,16 +336,18 @@ hr {
 
 /* Card with shadow */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  outline-offset: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   /* Rounded corners */
   border-radius: 5px;
   margin: 20px;
   /* Add background color to the cards to make them white. */
-  background-color: #323444;
+  background-color: #323444f5;
   width: 500px;
   color: #FFF;
-  a{
+
+  a {
     color: rgb(255, 145, 0);
     font-size: large;
   }
@@ -306,11 +355,11 @@ hr {
 
 .card:hover {
   /* When hover, change shadow... cool! */
-  box-shadow: 0 50px 160px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 50px 160px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card img {
-    /* Rounded corners */
+  /* Rounded corners */
   border-radius: 5px 5px 0 0;
   width: 100%;
 }
@@ -337,7 +386,7 @@ footer {
 
 /* Card with shadow */
 .littleCard {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   /* Rounded corners */
   border-radius: 5px;
@@ -347,120 +396,143 @@ footer {
   width: 100px;
 }
 
-.colorDefJava{
+.colorDefJava {
   background-color: #e88242;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
-.colorDefCSS{
+.colorDefCSS {
   background-color: #2f50f5;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
-.colorDefHTML-CSS{
+.colorDefHTML-CSS {
   background-color: #C73E1D;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
-.colorDefReact{
+.colorDefReact {
   background-color: #00BAF0;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
-.colorDefAWS-S3{
+.colorDefAWS-S3 {
   background-color: #f06c00;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
-.colorDefIndigenous-development{
+.colorDefIndigenous-development {
   background-color: #f00000;
   /* Fix long text overflowing. */
   padding: 5px;
   width: min-content;
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
 
 .colorDefAI {
   background-color: #37da37;
-  
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #000000;
+
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #000000;
   }
 }
 
 .colorDefData {
   background-color: #6fe2c1;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
 .colorDefIT-Management {
   background-color: #6fe2c1;
-  
+
   /* Fix long text overflowing. */
   padding: 5px;
   width: min-content;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
 .colorDefTypeScript {
   background-color: #0080f0;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
 .colorDefNodeJS {
   background-color: #5ede42;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #000000;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #000000;
   }
 }
 
@@ -468,10 +540,12 @@ footer {
 .colorDefPython {
   background-color: #f7e91f;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #000000;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #000000;
   }
 
 }
@@ -479,30 +553,36 @@ footer {
 .colorDefPandas {
   background-color: #241058;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
 .colorDefSklearn {
   background-color: #ffa500;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
 .colorDefNumPy {
   background-color: #268dd1;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
@@ -511,127 +591,206 @@ footer {
   background-color: #0b0b71;
   color: #FFF;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
 
   }
 }
 
-.colorDefNextJS{
+.colorDefNextJS {
   background-color: black;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
 
   }
 }
-.colorDefFront-End{  background-color: #66e855;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+.colorDefFront-End {
+  background-color: #66e855;
 
-  }}
-.colorDefBack-End{  background-color: #480a0a;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  }
+}
 
-  }}
-  
-.colorDefFull-Stack{  background-color: #bed140;
+.colorDefBack-End {
+  background-color: #480a0a;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
 
-  }}
+  }
+}
+
+.colorDefFull-Stack {
+  background-color: #bed140;
+
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
+
+  }
+}
 
 .colorDefIoT {
   background-color: #800080;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
 
   }
 }
 
 
-.colorDefJavaScript{
+.colorDefJavaScript {
   background-color: #efd511;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #000000;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #000000;
   }
 }
 
-.colorDefRemote-Build{
+.colorDefRemote-Build {
   background-color: #b00101;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
-.colorDefTeamwork{
+.colorDefTeamwork {
   background-color: #ff3c00;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
-.colorDefCSharp{
+.colorDefCSharp {
   /* Use escape character for selector. */
   background-color: #ff00f7;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 
 }
 
-.colorDefDocker{
+.colorDefRazor-Engine {
+  background-color: #0b0b71;
+  padding: 5px;
+  width: min-content;
+
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
+  }
+}
+
+.colorDefNLP {
+  background-color: #5d0b71;
+  padding: 5px;
+  width: min-content;
+
+  a {
+    /*Make link cover while div and center text */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
+  }
+}
+
+
+.colorDefDocker {
   background-color: #1997ec;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
-.colorDefDatabases{
+.colorDefDatabases {
   background-color: #ec1963;
 
-  a:hover, a:visited, a:link, a:active
-  {
-      text-decoration: none;
-      color: #FFF;
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+    color: #FFF;
   }
 }
 
 // ---------- Skills
 
-.skillLogoContainer{
+.skillLogoContainer {
   padding-top: 6px;
   display: flex;
   justify-content: center;
@@ -639,9 +798,9 @@ footer {
   scroll-margin-top: 7em;
 }
 
-.skillSummaryContainer{
+.skillSummaryContainer {
   padding: 10px;
-  
+
 }
 
 // .skillLogoJava {
@@ -768,8 +927,8 @@ footer {
 
 
 .homeLeftHeader {
- margin-top: 0;
- 
+  margin-top: 0;
+
 }
 
 .homeRightHeader {
@@ -788,7 +947,7 @@ footer {
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: din-round,sans-serif;
+  font-family: din-round, sans-serif;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: .8px;
@@ -822,7 +981,7 @@ footer {
   right: 0;
   top: 0;
   z-index: -1;
-  
+
 
 }
 
@@ -840,7 +999,7 @@ footer {
   cursor: auto;
 }
 
-.learnMoreButton{
+.learnMoreButton {
   text-decoration: none;
   color: white;
   height: 100%;
@@ -852,18 +1011,79 @@ footer {
 /*Change size of button when screen gets smaller*/
 @media only screen and (max-width: 1314px) {
   .button-19 {
-   width: 80%;
+    width: 80%;
   }
 }
 
-.splitHome{
-  .card{
+/* changes the background from a grey card to a transparent background*/
+.splitHome {
+  .card {
     background-color: rgba(0, 0, 0, 0);
   }
 }
 
-@media only screen and (max-width: 1314px) {
-  .card{
-    
+
+/*inspired from https://codepen.io/chris22smith/pen/RZogMa */
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 20s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:25s;
+}
+
+.bg3 {
+  animation-duration:30s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
   }
 }
+
+.inner{
+  outline: 10px dashed white;
+  outline-width: 1px;
+  top: -10px;
+  left: -10px;
+  z-index: 10;
+}
+
+
+
+

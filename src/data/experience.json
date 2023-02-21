@@ -3,8 +3,8 @@
         "experience": "Re-Leased",
         "description": "During the summer of 2020 and early 2021 I worked as a junior software developer, implementing a new rendering system to reduce rendering time from 10 seconds plus, to less than 1 second. This was done by refactoring the code with modern libraries and changing how the data management system works. I led and developed this project myself with the help of my team.  Core skills included were software engineering, project management, agile skills and full stack programming.",
         "time": "Nov 2020 - Feb 2021",
-        "tags": ["Full Stack", "HTML & CSS", "JavaScript", "NodeJS", "Teamwork", "Databases"],
-        "identifiers": ["Full-Stack", "HTML-CSS", "JavaScript", "NodeJS", "Teamwork", "Databases"]
+        "tags": ["Full Stack", "HTML & CSS", "JavaScript", "NodeJS", "Teamwork", "Databases", "RazorEngine"],
+        "identifiers": ["Full-Stack", "HTML-CSS", "JavaScript", "NodeJS", "Teamwork", "Databases", "Razor-Engine"]
     },
     {
         "experience": "Hasting District Council",

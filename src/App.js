@@ -12,6 +12,7 @@ function App() {
         {experience.map((data, cardKey) => {
           return (
             <div className='card'>
+              <div className='inner'></div>
               <div className='cardContainer'>
                 <h1>{data.experience}</h1>
                 <h4>{data.time}</h4>
@@ -127,14 +128,14 @@ function App() {
         </ul>
       </section>
 
-       <div className='splitHome cardsContainer' id='home'> 
+      <div className='splitHome cardsContainer' id='home'>
         <div className='card'>
           <h1 className='homeLeftHeader'>PORTFOLIO</h1>
           <div className='personalStatementContainer'>
             <h4 className='faderSlow'>My name is Arran Logan-Riley and I am a graduate of both Furtwangen University in Germany and the Eastern Institute of Technology in New Zealand.</h4>
           </div>
         </div>
-        <div className='card '>
+        <div className='card'>
           <h1 className='homeRightHeader'>SOFTWARE DEVELOPER</h1>
           <div className='personalStatementContainer'>
             <h4 className='faderSlow'>I am a front-end or back-end junior developer with experience in data analytics and electronics.</h4>
@@ -143,7 +144,10 @@ function App() {
       </div>
 
       <div className='experiences' id='experienceSection'>
-      <div  className='button-19' ><a className='learnMoreButton' href='#experienceSection'>Learn More</a></div>
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+        <div className='button-19' ><a className='learnMoreButton' href='#experienceSection'>Learn More</a></div>
         <div className='experienceTitle'>
           <h1>Work Experience</h1>
           <hr></hr>
