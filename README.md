@@ -1,17 +1,5 @@
-# Portfolio React App
+# Portfolio App
 
-Using
-* JavaScript
-* React Native App
-* SASS
-* React GitHub pages
-* React Helmet
+This project is built using react to show potential employers what I am capable of as a software developer.
 
-### `npm start`
-### `npm test`
-* See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-### `npm run deploy`
-* To deploy to GitHub Pages.
-
-### `Jest Testing`
-[Jest-React](https://jestjs.io/docs/getting-started)
+Visit arranlr.com to view the live web page.
